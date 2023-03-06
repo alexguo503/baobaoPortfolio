@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #14342B;
+}
+
+body {
+  font-family: poppins;
+}
+
+/* 以下优化滚动条显示  */
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to right bottom, #fcc8d0, #b3fbfb);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+.particles {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
