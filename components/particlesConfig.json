@@ -5,7 +5,7 @@
 },
   "fps_limit":120,
   "interactivity":{
-    "detectsOn":"window",
+
     "events":{
       "onClick":{
         "enable":true,
@@ -39,10 +39,8 @@
       "width":1
     },
     "move":{
-      "bounce":false,
-      "direction":"none",
+      "bounce":true,
       "enable":true,
-      "outMode":"out",
       "random":true,
       "speed":2.5,
       "straight":false

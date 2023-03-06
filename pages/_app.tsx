@@ -41,7 +41,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         </div>
        
       </Layout>
-      <Particles options={config} />
+      <Particles options={config}  id="particles-here" />
     </>
   );
 }
