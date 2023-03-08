@@ -49,10 +49,11 @@ const Projects = () => {
           active={active}
         />
 
+        {/* className for the container, columnClassName for each generated column  */}
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="flex gap-4"
-          columnClassName=""
+          columnClassName=''
         >
           {selectedProjects.map((project) => (
             <motion.div

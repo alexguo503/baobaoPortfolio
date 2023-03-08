@@ -85,7 +85,7 @@ const Sidebar = () => {
         className="w-8/12 tracking-wider bg-gradient-to-r from-pink-300 to-blue-200 rounded-full px-5 py-2 my-2 text-white"
         onClick={changeTheme}
       >
-        更换 Light / Dark 主题
+         浅色 / 深色
       </button>
     </>
   );

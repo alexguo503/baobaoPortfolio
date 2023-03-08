@@ -186,7 +186,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "8",
+    id: "7",
     name: "小心心玄玄上学记",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -197,7 +197,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "9",
+    id: "8",
     name: "小鱼鱼鱼",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -208,7 +208,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "10",
+    id: "9",
     name: "数字游戏",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -219,7 +219,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "11",
+    id: "10",
     name: "MJ",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -230,7 +230,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "12",
+    id: "11",
     name: "拳击场",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -241,7 +241,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "13",
+    id: "12",
     name: "彩甲",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -252,8 +252,8 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "14",
-    name: "元宵灯笼",
+    id: "13",
+    name: "元宵节",
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "/images/handcraft/手工 灯笼装饰.jpg",
@@ -263,7 +263,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "15",
+    id: "14",
     name: "包包的小屋",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -274,7 +274,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "16",
+    id: "15",
     name: "炒素",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -285,7 +285,7 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "17",
+    id: "16",
     name: "煮饭",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -296,11 +296,55 @@ export const projects: Project[] = [
     key_techs: ["React", "Chart.js"],
   },
   {
-    id: "18",
+    id: "17",
     name: "蛋糕",
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "/images/cooking/烹饪 蛋糕.png",
+    deployed_url: "https://covid-19-tracker-by-sumit.web.app",
+    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    category: ["Cooking"],
+    key_techs: ["React", "Chart.js"],
+  },
+  {
+    id: "18",
+    name: "干杯",
+    description:
+      "This app shows a statistical view about corona virus over the world",
+    image_path: "/images/painting/绘画 干杯.jpg",
+    deployed_url: "https://covid-19-tracker-by-sumit.web.app",
+    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    category: ["Painting"],
+    key_techs: ["React", "Chart.js"],
+  },
+  {
+    id: "19",
+    name: "梦幻房间",
+    description:
+      "This app shows a statistical view about corona virus over the world",
+    image_path: "/images/handcraft/手工 梦幻房间.png",
+    deployed_url: "https://covid-19-tracker-by-sumit.web.app",
+    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    category: ["Handcraft"],
+    key_techs: ["React", "Chart.js"],
+  },
+  {
+    id: "20",
+    name: "元宵灯笼",
+    description:
+      "This app shows a statistical view about corona virus over the world",
+    image_path: "/images/handcraft/手工 元宵灯笼.png",
+    deployed_url: "https://covid-19-tracker-by-sumit.web.app",
+    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    category: ["Handcraft"],
+    key_techs: ["React", "Chart.js"],
+  },
+  {
+    id: "21",
+    name: "蛋糕",
+    description:
+      "This app shows a statistical view about corona virus over the world",
+    image_path: "/images/cooking/烹饪 蛋糕2.jpg",
     deployed_url: "https://covid-19-tracker-by-sumit.web.app",
     github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
     category: ["Cooking"],
