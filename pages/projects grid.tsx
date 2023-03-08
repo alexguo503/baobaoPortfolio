@@ -8,17 +8,9 @@ import ProjectNavbar from "../components/projectNavbar";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../Ui/animations";
 
-import Masonry from "react-masonry-css";
-
 const Projects = () => {
   const [selectedProjects, setSelectedProjects] = useState(allProjects);
   const [active, setActive] = useState("all");
-
-  const breakpointColumnsObj = {
-    default: 3,
-    900: 2,
-    500: 1,
-  };
 
   const [showDetail, setShowDetail] = useState<string | null>(null);
 
@@ -49,16 +41,17 @@ const Projects = () => {
           active={active}
         />
 
-        <Masonry
-          breakpointCols={breakpointColumnsObj}
-          className="flex gap-4"
-          columnClassName=""
+        <motion.div
+          className="relative grid grid-cols-12 gap-4 my-3"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
         >
           {selectedProjects.map((project) => (
             <motion.div
               variants={fadeInUp}
               key={project.name}
-              className="align-middle pt-6 bg-gray-50 dark:bg-dark-200 rounded-lg"
+              className="col-span-12 align-middle pt-6 bg-gray-50 dark:bg-dark-200 rounded-lg md:col-span-6 lg:col-span-4"
             >
               <ProjectCard
                 project={project}
@@ -67,7 +60,7 @@ const Projects = () => {
               />
             </motion.div>
           ))}
-        </Masonry>
+        </motion.div>
       </div>
     </motion.div>
   );

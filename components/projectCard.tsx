@@ -1,5 +1,3 @@
-// 这个文件不能用 ctrl+s 做 prettier 代码格式美化会报错?
-
 import { FC } from "react";
 // import Image from "next/image";
 
@@ -15,7 +13,7 @@ const ProjectCard: FC<{
 }> = ({ project: { id, name, image_path }, showDetail, setShowDetail }) => {
   return (
     <>
-      <div className="relative flex flex-col items-center">
+      {/* <div className="relative items-center"> */}
         {/* <Image
           src={image_path}
           alt={name}
@@ -34,10 +32,10 @@ const ProjectCard: FC<{
           transition={{ delay: 1 }}
           onClick={() => setShowDetail(id)}
         />
-        <p className="my-2 text-center font-bold text-gray-800 dark:text-white">
+        {/* <p className="my-2 text-center font-bold text-gray-800 dark:text-white">
           {name}
-        </p>
-      </div>
+        </p> */}
+      {/* </div> */}
 
       {showDetail === id && (
         <div className="fixed top-0 left-0 w-full h-full bg-gray-900 place-content-start grid z-20">
@@ -55,7 +53,7 @@ const ProjectCard: FC<{
                 /> */}
 
             <motion.img
-              className="cursor-pointer rounded-md"
+              className="cursor-pointer w-full rounded-md"
               alt={name}
               src={image_path}
               initial={{ opacity: 0 }}
