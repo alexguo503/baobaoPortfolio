@@ -1,4 +1,4 @@
-import { GetStaticProps, GetStaticPropsContext, NextPage } from "next";
+import { NextPage } from "next";
 import { services } from "./api/data";
 import ServiceCard from "../components/serviceCard";
 

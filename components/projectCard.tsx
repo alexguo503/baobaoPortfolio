@@ -16,12 +16,7 @@ const ProjectCard: FC<{
   project: {
     id,
     name,
-    description,
     image_path,
-    deployed_url,
-    github_url,
-    category,
-    key_techs,
   },
   showDetail,
   setShowDetail,

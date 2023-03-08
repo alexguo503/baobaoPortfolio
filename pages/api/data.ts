@@ -46,7 +46,8 @@ export const services: Service[] = [
   },
   {
     title: "Piano",
-    about: "音乐有它自己的诗，这种诗叫做旋律 &nbsp;&nbsp;   <b> - 约书亚·洛根 </b>",
+    about:
+      "音乐有它自己的诗，这种诗叫做旋律 &nbsp;&nbsp;   <b> - 约书亚·洛根 </b>",
     Icon: GiMusicalScore,
   },
   {

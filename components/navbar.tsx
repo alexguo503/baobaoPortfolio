@@ -16,10 +16,7 @@ const NavItem: FunctionComponent<{
 }> = ({ activeItem, name, route, setActiveItem }) => {
   return activeItem !== name ? (
     <Link href={route}>
-      <span
-        className="hover:text-pink-300"
-        onClick={() => setActiveItem(name)}
-      >
+      <span className="hover:text-pink-300" onClick={() => setActiveItem(name)}>
         {name}
       </span>
     </Link>
@@ -35,7 +32,7 @@ const Navbar = () => {
     if (pathname === "/") setActiveItem("About");
     if (pathname === "/projects") setActiveItem("Projects");
     if (pathname === "/resume") setActiveItem("Resume");
-  }, []);
+  }, [pathname]);
 
   return (
     <div className="flex justify-between px-5 py-3 my-3">
@@ -55,7 +52,6 @@ const Navbar = () => {
           name="My work"
           route="/projects"
         />
-
       </div>
     </div>
   );
